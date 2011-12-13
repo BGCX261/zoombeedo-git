@@ -23,15 +23,16 @@ handlers:
 - url: /bootstrap\.css
   static_files: bootstrap.css
   upload: bootstrap\.css
+  
 - url: /images
   static_dir: images
+  
 - url: /js
   static_dir: js
+  
 - url: /lib
   static_dir: lib
+  
 - url: /favicon\.ico
   static_files: images/favicon.ico
   upload: favicon\.ico
-  
-- url: .*
-  script: main.py
