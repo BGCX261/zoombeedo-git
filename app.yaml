@@ -1,4 +1,4 @@
-application: zoobeedoapp
+application: zoombeedo
 version: 1
 runtime: python
 api_version: 1
@@ -10,7 +10,7 @@ handlers:
 
 - url: /guia
   static_files: guia.html
-  upload: index\.html
+  upload: guia\.html
 
 - url: /login
   static_files: login.html
